@@ -12,3 +12,8 @@ si estoy actualizando:
 git add . 
 git commit -m "comentario" 
 git push  
+
+aclaraciones:
+
+si me equivoco al poner el git remote usamos este comando
+git remote set-url origin <url correcto>
