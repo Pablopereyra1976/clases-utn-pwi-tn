@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+
+<body>
+    <h1>form</h1>
+    <form>
+        <div>
+            <label for="nombre">ingrese su usuario"</label>
+            <input type="text" name="nombre" id="nombre" placeholder="pablo andres">
+            <span style="color:brown">dato no valido</span>
+        </div>
+        <div>
+            <label for="contraseña">ingrese su contraseña</label>
+            <input type="password" name="password" id="contraseña" placeholder="contraseña">
+        </div>
+        <div>
+            <label for="email">ingrese su email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="enviar"></label>
+            <input type="submit" value="enviar">
+        </div>
+        <div>
+            <label for="pais">seleccione su pais</label>
+            <select name="pais" id="pais">
+                <option value="no" selected disabled>seleccione</option>
+                <option value="AR">argentina</option>
+                <option value="BR">brasil</option>
+                <option value="MX">mexico</option>
+            </select>
+        </div>
+        <div>
+            <label for="acepto">aceptar terminos</label>
+            <input type="checkbox" name="acepto">
+        </div>
+    </form>
+</body>
+
+</html>
