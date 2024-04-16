@@ -1,0 +1,14 @@
+h2{/* selector de elementos */
+    color: darkorange;
+    font-size: 50px;
+}
+.subtituloespecial{
+    color: blue;
+    font-family:'Times New Roman', Times, serif
+}
+#subtituloespecial{
+    color: brown;
+}
+*{/* selector universal */
+    font-family: sans-serif;
+}
