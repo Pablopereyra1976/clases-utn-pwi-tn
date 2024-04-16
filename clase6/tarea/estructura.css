@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.texto{
+    color: blue;
+    font-style: oblique;
+    text-decoration: underline;
+}
+.lista{
+    color: brown;
+    font-size: 30px;
+}
+.sublista{
+    color: rgb(41, 71, 12);
+    font-size: 25px;
+}
+.aside{
+    background-color: rgb(186, 165, 206);
+    width: 300px;
+    height: 650px;
+}
