@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.padre {
+  background-color: blue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  row-gap: 70px;
+}
+.hijo {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
