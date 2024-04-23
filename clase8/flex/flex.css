@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.padre {
+    background-color: greenyellow;
+    height: 100vh;
+    /* viewport heigth-pantalla */
+    display: flex;
+    /* habilita a flex direction */
+    flex-direction: row;
+    /* row reverse - column reverse - column */
+    gap: 20px;
+    flex-wrap: wrap;
+    /* cuando tenemos varios hijos en row habilita q se encolumnen en el espacio q quede */
+    justify-content: space-around;/* sobre eje x */
+    align-items: end;/* sobre eje y */
+    /* center - end - start */
+
+
+}
+
+.padre .hijo {
+    /* especicidad 020 vale mas q .padre */
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+.padre .especial {
+    background-color: brown
+}
