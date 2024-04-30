@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display:none; /* desaparecen los elementos */
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+@media screen and (min-width: 830px){
+    nav{
+        display: flex;
+        gap: 15px;
+    }
+    header button{
+        display: none;
+    }
+}
