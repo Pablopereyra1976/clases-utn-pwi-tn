@@ -6,14 +6,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 header {
   display: flex;
   justify-content: space-between;
   height: 70px;
   align-items: center;
   padding: 40px 40px;
-  
+  background-color: aliceblue;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
 }
+
 .lenguaje {
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
@@ -27,6 +33,7 @@ header {
   display: flex;
   height: 30px;
 }
+
 .bandera {
   height: 25px;
   display: flex;
@@ -34,39 +41,45 @@ header {
   padding-left: 18px;
   width: 48px;
 }
+
 .nav {
   display: flex;
   flex-direction: row;
 }
+
 .nav-item {
   font-family: "DM Sans", sans-serif;
 }
+
 .link-conteiner {
   display: flex;
-
   font-family: "DM Sans", sans-serif;
-  color: #1d1e20;
   font-size: 16px;
-
   gap: 30px;
 }
+
 .link-item {
   display: flex;
-  color: #1d1e20;
+
 }
+
 li {
   list-style: none;
   display: flex;
   align-items: center;
 }
+
 .bi {
   padding-left: 10px;
   color: #2f1c6a;
   font-weight: 800;
 }
+
 a {
   text-decoration: none;
+  color: #404042;
 }
+
 .button {
   background-color: white;
   width: 100px;
