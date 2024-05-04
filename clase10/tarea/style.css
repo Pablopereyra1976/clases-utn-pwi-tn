@@ -54,8 +54,8 @@ h2 {
 .bi {
   width: 16px;
   height: 16px;
-  padding-right: 3px;
-  font-weight: 400;
+  padding-right: 18px;
+  font-weight: 300;
 }
 .comentarios-container {
   width: 100%;
@@ -84,8 +84,19 @@ span {
   font-family: "DM Sans", sans-serif;
   color: #fffbff;
 }
+.chevron {
+  width: 100%;
+
+  display: flex;
+  justify-content: right;
+  color: #fffbff;
+  margin-top: 25px;
+}
 @media screen and (max-width: 1030px) {
   .content {
     display: flex;
+  }
+  .comentarios-container{
+    
   }
 }

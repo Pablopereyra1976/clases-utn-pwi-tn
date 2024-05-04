@@ -8,6 +8,7 @@
 }
 .nav {
   display: flex;
+  font-family: "DM Sans", sans-serif;
 }
 .button{
   display: flex;
@@ -17,6 +18,8 @@ display: flex;
 }
 .menu{
   display: none;
+  width: 16px;
+  height: 16px;
 }
 
 
@@ -58,9 +61,7 @@ header {
 
 
 
-.nav {
-  font-family: "DM Sans", sans-serif;
-}
+
 
 .link-conteiner {
   display: flex;
@@ -77,10 +78,10 @@ header {
 li {
   list-style: none;
   display: flex;
-  align-items: center;
+  align-items: start;
 }
 
-.bi bi-chevron-down {
+.bi .bi-check-lg {
   padding-left: 10px;
   color: #2f1c6a;
   font-weight: 800;
@@ -104,6 +105,11 @@ a {
   font-size: 18px;
   margin-right: 30px;
 }
+.icon-menu{
+  width: 24px;
+  height: 24px;
+  background-color: chartreuse;
+}
 @media screen and (max-width: 1030px) {
   .nav{
    display: none;
@@ -117,9 +123,16 @@ a {
   }
   .menu{
  display: inline-block;
+ margin-right: 20px;
+ 
   }
   .link-item {
     display: flex;
-  
+  }
+  .bandera{
+    display: none;
+  }
+  .lenguaje{
+    display: none;
   }
  }
