@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container-colors {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 1000px;
+}
+.color {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: blue;
+  box-shadow: 10px 10px 10px;
+  
+}
+.color:nth-child(1) {
+  background-color: brown;
+ position: relative;
+ z-index: 1;
+
+}
+.color:nth-child(2) {
+  background-color: rgb(141, 153, 88);
+  position: relative;
+  left: -60px;
+  
+}
+.color:nth-child(3) {
+  background-color: rgb(32, 155, 53);
+  position: sticky;
+  top: 40px;
+}
+.color:nth-child(4) {
+  background-color: rgb(31, 142, 161);
+  position: relative;
+  left: -180px;
+  z-index: -4;
+}
