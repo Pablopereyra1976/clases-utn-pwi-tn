@@ -43,6 +43,7 @@ header {
   font-weight: 700;
   display: flex;
   align-items: center;
+  padding-left: 3px;
 }
 
 .logo-conteiner {
@@ -72,7 +73,8 @@ header {
 
 .link-item {
   display: flex;
-
+  align-items: center;
+  gap: 10px;
 }
 
 li {
@@ -108,7 +110,6 @@ a {
 .icon-menu{
   width: 24px;
   height: 24px;
-  background-color: chartreuse;
 }
 @media screen and (max-width: 1030px) {
   .nav{
