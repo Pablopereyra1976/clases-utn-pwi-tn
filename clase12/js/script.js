@@ -1,6 +1,6 @@
-console.log("hola mundo");
+/*console.log("hola mundo");
 console.log(! "hola"); /* false */
-console.log(true && 'pepe'); /* pepe xq pasa a la segunda expresion */
+/*console.log(true && 'pepe'); /* pepe xq pasa a la segunda expresion */
 /*console.log(number('pepe' + 1));  NaN */
 /*  alert("hola mundo");*/
 /* operadores logicos
@@ -40,13 +40,13 @@ const
 no se puede reasignar
 no tiene hoisting
  */
-const nombre1=('pablo');
+/*const nombre1=('pablo');
 /*nombre1=('julieta'); no se puede reasignar*/
-console.log(nombre1);
+/*console.log(nombre1);
 /* bloques de codigo, es lo que va entre llaves	{} */
-let valor='pepe'; /*alcance global*/
-{  /*alcance local*/
-    let valor='julieta';
+/*let valor='pepe'; /*alcance global*/
+/*{  /*alcance local*/
+    /*let valor='julieta';
     console.log(valor);
 }
 console.log(valor);
@@ -59,8 +59,30 @@ let nombre='pepe';
 nombre= 'julieta'   
 console.log(nombre);
 
- /*       var              nombre      =  'pepe';
+/*      var              nombre      =  'pepe';
 tipo de variable     identificador       valor  */
 
 /* condicionales
 */
+let nombre='pepe'
+console.log(nombre)
+{
+     let nombre = 'pedro'
+    console.log(nombre)
+    {
+        let nombre = 'maria'
+        console.log(nombre)
+    }
+    {
+        let nombre = 'leonel'
+        console.log(nombre)
+        {
+            nombre = 'julieta'
+            console.log(nombre)
+        }
+        console.log(nombre)
+    }
+    console.log(nombre)
+    nombre = 'juan'
+}
+console.log(nombre)
