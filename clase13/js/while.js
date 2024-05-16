@@ -9,19 +9,9 @@ while(nombre === 'pepe'){
 }
 alert('ese nombre no lo conozco')
 
-let apellido = prompt('ingrese su apellido')
+/*  let apellido = prompt('ingrese su apellido')
 while (!apellido) {
     alert('error: DATO NO VALIDO')
 apellido = prompt('ingrese nuevamente su apellido')
 }
 alert('DATO CORRECTO')
-
-let frase = 'hola pablin'
-let fraseConEspacios = '';
-for(let i = 0; i < frase.length; i++){
-    fraseConEspacios += frase.charAt(i)
-    if(i!== frase.length -1){
-        fraseConEspacios += ' '
-}
-}
-alert(fraseConEspacios)*/
