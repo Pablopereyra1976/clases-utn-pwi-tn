@@ -31,7 +31,7 @@ suma = suma + numero
 }
 console.log('resultado: ' + suma)*/
 
-let frase = prompt("ingrese la cantidad de palabras para formar una frase")
+/*let frase = prompt("ingrese la cantidad de palabras para formar una frase")
 while(!frase || isNaN(frase)){
     frase = prompt("ERROR: ingrese la cantidad de palabras para formar una frase")
 }
