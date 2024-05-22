@@ -29,20 +29,32 @@ let numero = prompt('ingrese un numero')
 numero = Number(numero)
 suma = suma + numero
 }
-console.log('resultado: ' + suma)
+console.log('resultado: ' + suma)*/
 
-let frase = 0
-for(i=0; i < 3; i++){
-    let palabra = prompt('ingrese una palabra') 
-    palabra = string(palabra)
-    frase = frase + palabra
+/*let frase = prompt("ingrese la cantidad de palabras para formar una frase")
+while(!frase || isNaN(frase)){
+    frase = prompt("ERROR: ingrese la cantidad de palabras para formar una frase")
 }
-console.log(frase)*/
+for (let i = 1; i <= frase; i++) {
+    let palabra = prompt("ingrese una palabra" + i)
+    if (palabra) {
+        let palabraMayuscula = palabra.toUpperCase(palabra)
+        document.write(palabraMayuscula + "<br/>")
+    }
+}
 
-//solicitar al usuario la cantidad de personas en la clase(numero), dependiendo de la cantidad de alumnos de la clase van a solicitar a cada uno el nombre
+/*solicitar al usuario la cantidad de personas en la clase(numero), dependiendo de la cantidad de alumnos de la clase van a solicitar a cada uno el nombre
 //si al cantidad de personas de clase es 5 van a solicitar 5 nombre
 //luego de solicitar los nombres mostrarlos en este formato:
 //lista de alumnos:
 //juan pepe maria carla julieta
 
-//aler
+let cantidadPersonas = prompt('ingrese la cantidad de personas')
+cantidadPersonas = Number(cantidadPersonas)
+for(let i = 1; i <= cantidadPersonas; i++){
+    let nombre = prompt('ingrese el nombre de la persona ' + i)
+   if(nombre){
+    let nombreMayuscula = nombre.toUpperCase(nombre)
+    document.write( nombreMayuscula + '<br/>')
+}
+}*/

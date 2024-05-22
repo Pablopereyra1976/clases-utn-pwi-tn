@@ -96,5 +96,31 @@ console.log('pepe'.repeat(3))
 
 let contra = 'pepe123'
 console.log('*'.repeat(contra.length))
-*/
+
+PRACTICANDO CONDICIONALES Y BUCLES
+
+let cantidad_de_productos = prompt(
+  "Ingresa cuantos articulos vas a incorporar"
+);
+cantidad_de_productos = Number(cantidad_de_productos);
+while (!cantidad_de_productos || isNaN(cantidad_de_productos)) {
+  cantidad_de_productos = prompt("ERROR: vuelve a ingresar el numero");
+}
+
+for (let i = 1; i <= cantidad_de_productos; i++) {
+let articulo = prompt("Ingresa el nombre del articulo");
+
+while (!articulo || articulo == "") {
+  articulo = prompt("ERROR: vuelve a ingresar el nombre del articulo");
+}
+
+
+  document.write("<ul>");
+  document.write("<li>" + articulo + "</li>");
+  document.write("</ul>");  
+ 
+  }*/
+  
+  
+
 

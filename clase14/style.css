@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  background-color: aqua;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: blue;
+  border:solid 1px black;
+  margin: 20px;
+  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+li{
+ padding-left: 30px;
+  text-decoration: underline;
+  background-color: brown;
+}
