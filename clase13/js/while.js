@@ -14,4 +14,4 @@ while (!apellido) {
     alert('error: DATO NO VALIDO')
 apellido = prompt('ingrese nuevamente su apellido')
 }
-alert('DATO CORRECTO')
+alert('DATO CORRECTO')*/
