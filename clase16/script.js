@@ -91,9 +91,9 @@ for(const personaje of personajes){
 const nombres = [ 'pepe' , 'juan' , 'maria', 'ezequiel']
 for(const nombre of nombres){
     console.log('hola ' + nombre)
-}*/
+}
 //FOR IN
-/*const datos = {
+const datos = {
     'nombre': 'pepe',
     'apellido': 'suarez',
     'dni': '12345678'
@@ -189,7 +189,7 @@ const productoStringTv = productos.filter(function(producto){
 /*MAP
 nos sirve para crear un array en base a otro array
 va  a recorrer el array y por cada elemento la callback va a ejecutarse
-RETORNA SIEMPRE UN ARRAY*/
+RETORNA SIEMPRE UN ARRAY
 
 const objetos = [
     {
@@ -206,7 +206,7 @@ const listaDeObjetosHtml = objetos.map(function (objeto) {
     return '<div>' + objeto.nombre + '</div>'
 })
 console.log(listaDeObjetosHtml)
-/*
+
 [
 '<div>vaso</div>',
 '<div>plato</div>',
@@ -222,5 +222,74 @@ DOM  document objet model
 FORMULARIOS
 EVENTOS
 
-*/
 
+function saludar(nombre) {
+    console.log("Hola, " + nombre);
+  }
+  
+  function procesarEntradaUsuario(callback) {
+    const nombre = "Juan";
+    callback(nombre);
+  }
+  
+  procesarEntradaUsuario(saludar);*/
+
+  const pilas = [];
+  pilas.push(1,2,3,4,5);
+  console.log(pilas)
+  pilas.pop();
+  console.log(pilas);
+
+  const elementos = ['b','c','d'];
+  elementos.unshift('a');
+  console.log(elementos);
+  elementos.shift(1);
+  console.log(elementos)
+
+  const numeros = [1,2,3,4,5];
+const cuadrado = numeros.map(function(numero){
+    return numero * numero;
+  })
+  console.log(cuadrado);
+
+  const number = [1,2,3,4,5,6,7,8,9,10];
+  const pares = number.filter(function(numero){
+    return numero %2===0;
+      
+  })
+  console.log(pares)
+
+  const suma = [1,2,3,4,5];
+  const total = suma.reduce(function(acumulador,numero){
+    return acumulador + numero
+  })
+  console.log(total)
+
+  const pilas2 = [1,2,3,4,5,6,7,8,9,10];
+   const pila2 = pilas2.find(function(numero){
+    return numero >5 
+  })
+  console.log(pila2)
+
+  const numeros2 = [1,2,3,4,5,6,7,8,9,10];
+   const numero2 = numeros2.findIndex(function(numero){
+    return numero >5 
+  })
+  console.log(numero2)
+
+  const mayorDeTres= [1,2,3,4,5];
+  const numeroverdadero = mayorDeTres.some (function(numero){;
+  return numero <3;
+  });
+  console.log(numeroverdadero)
+
+  const menorDeDiez = [1,2,3,4,5];
+  const verdadero = menorDeDiez.every(function(numero){
+      return numero <10;
+  })
+  console.log(verdadero)
+
+  const multiplosDeDos = [1,2,3,4,5];
+   multiplosDeDos.forEach(function(numero){
+    console.log(numero*2);
+  })
