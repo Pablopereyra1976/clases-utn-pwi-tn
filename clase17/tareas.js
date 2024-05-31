@@ -1,4 +1,4 @@
-let emailUsuario = prompt("ingrese su email");
+/*let emailUsuario = prompt("ingrese su email");
 function loginEmail(emailUsuario) {
   while (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g.test(emailUsuario)) {
     alert("error: DATO NO VALIDO");
@@ -64,13 +64,70 @@ function calculadora() {
   }
 }
 
-alert(calculadora());
+alert(calculadora());*/
+
+const historial = [
+  {
+      accion: 'CALCULAR',
+      operacion: '+',
+      a: 1,
+      b: 2,
+      resultado: 2
+  },
+  {
+      accion: 'CALCULAR',
+      operacion: '-',
+      a: 1,
+      b: 2,
+      resultado: -1
+  },
+  {
+      accion: 'CALCULAR',
+      operacion: '-',
+      a: 1,
+      b: 2,
+      resultado: -1
+  },
+  {
+      accion: 'CALCULAR',
+      operacion: '-',
+      a: 1,
+      b: 2,
+      resultado: -1
+  },
+  {
+      accion: 'CALCULAR',
+      operacion: '-',
+      a: 1,
+      b: 2,
+      resultado: -1
+  },
+]
 
 
 
-function renderizarHistorial() {
-  let historial = document.getElementById("historial");
-  historial.innerHTML = historial.innerHTML + "<li>" + calculadora() + "</li>";
-}
+
 
 renderizarHistorial(historial);
+
+
+function agregarAlHistorial(elementoHistorial){
+  historial.push(elementoHistorial)
+  renderizarHistorial(historial)
+}
+
+function obtenerHistorial(){
+  return historial
+}
+agregarAlHistorial({
+  accion: 'CALCULAR',
+  operacion: '+',
+  a: 1,
+  b: 2,
+  resultado: 2  
+}
+)
+console.log(agregarAlHistorial())
+
+
+

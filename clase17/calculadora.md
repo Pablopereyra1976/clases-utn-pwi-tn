@@ -110,4 +110,17 @@ reglas:
 todo el logeo debe estar dentro de una funcionalidad
 login() debe debe retornar un objeto usuario: { email: , password: }
 
+Crear una funcion llamada
+elementoHistorial =  {
+        accion: 'CALCULAR',
+        operacion: '-',
+        a: 1,
+        b: 2,
+        resultado: -1
+    }
+agregarAlHistorial(elementoHistorial)
+Agregar el objeto al array global historial
+
+obtenerHistorial() que va a retornar el historial global
+
 
