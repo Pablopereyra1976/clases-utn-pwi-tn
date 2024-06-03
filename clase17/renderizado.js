@@ -152,8 +152,8 @@ function agregarAlHistorial(elementoHistorial) {
 }
 localStorage.setItem('historial', historialConString)
 
-/* la funcion obtenerHistorial debe tomar el historial del localStorage y retornarlo como array*/
-//clear(localStorage)
+ la funcion obtenerHistorial debe tomar el historial del localStorage y retornarlo como array
+clear(localStorage)
 function agregarAlHistorial(elementoHistorial){
     const historial = obtenerHistorial() //historial previo o []
     const elementoConPropiedades ={
@@ -173,9 +173,30 @@ function obtenerHistorial() {
 if (obtenerHistorial() === null){
     localStorage.setItem('historial', JSON.stringify([]))
 }
-agregarAlHistorial({
-error: 'error de pereyra',
-saludo: 'hola'
-})
 
-console.log(obtenerHistorial())
+localStorage.clear()
+const historialConString = JSON.stringify(historial);
+localStorage.setItem('historial', historialConString);
+//alert(historialConString)
+function agregarHistorial(nuevaOperacion) {
+    let historial = JSON.parse(localStorage.getItem('historial')) || [];
+    historial.push(nuevaOperacion);
+}
+const nuevaOperacion = {
+    accion: 'CALCULAR',
+    operacion: '-',
+    a: 34,
+    b: 2,
+    resultado: 32
+}
+
+localStorage.setItem('historial', JSON.stringify(nuevaOperacion));
+
+
+historialConString = JSON.parse(localStorage.getItem('historial'));
+
+localStorage.setItem('historial', JSON.stringify());*/
+
+
+
+
