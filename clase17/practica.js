@@ -90,6 +90,7 @@ function obtenerMateriasCursadas() {
     return [];
   }
 }
+
 console.log(obtenerMateriasCursadas());
 
 let nuevaMateria = {
@@ -107,11 +108,25 @@ function agregarMateria(nuevaMateria) {
 }
 agregarMateria(nuevaMateria);
 console.log(obtenerMateriasCursadas());
+console.log(materias)
 
-const container = document.getElementById("materias");
-materiasCursadas.forEach((materia) => {
+
+
+let container = document.getElementById("materias");
+obtenerMateriasCursadas().forEach((materia) => {
   container.innerHTML += `<div><h3>${materia.nombre}</h3><p> id: ${materia.id}</p><p>Modulo: ${materia.modulo}</p><p>Profesor: ${materia.profesor}</p><hr></div>`
 })
+
+let nuevaMateria1 = {
+  id: 5,
+  nombre: "Quimica",
+  modulo: 7,
+  profesor: "Carlos",
+};
+agregarMateria(nuevaMateria1);
+console.log(obtenerMateriasCursadas());
+
+
 
 
 
