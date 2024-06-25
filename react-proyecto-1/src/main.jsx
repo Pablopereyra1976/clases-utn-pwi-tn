@@ -8,11 +8,10 @@ import ReactDOM from 'react-dom/client'
 /*los componentes son funciones que retornan JSX*/
 /* jsx es un codigo parecido a html*/
 import App from './App.jsx'
-import { PI, doSometing } from './funciones.jsx'
 
-console.log(PI)
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
 
   <App />
-
 )

@@ -1,5 +1,7 @@
 import React from 'react'  // siempre que tengamos un archivo jsx hay que importar react
-import PI from './funciones' // importa el archivo 'funciones'
+import { App2 } from '../App2.jsx'
+import {PI, doSometing} from './funciones.jsx'
+
 function App() {
     return (
 
@@ -7,6 +9,10 @@ function App() {
             <h1>hola desde react</h1>
             <Productcard />
             <Carrito />
+            <br />
+          <div> valor de PI:  {PI}</div>
+          {doSometing()}
+          <App2 />
         </>
 
     )
@@ -87,3 +93,6 @@ const Item = () => {
 
 
 export default App
+
+/*clase24*/
+
