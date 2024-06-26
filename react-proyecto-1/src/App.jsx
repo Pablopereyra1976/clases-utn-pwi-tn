@@ -1,7 +1,7 @@
 import React from 'react'  // siempre que tengamos un archivo jsx hay que importar react
 import { App2 } from '../App2.jsx'
-import {PI, doSometing} from './funciones.jsx'
 
+import { ColorCard } from './ColorCard.jsx'
 function App() {
     return (
 
@@ -10,13 +10,14 @@ function App() {
             <Productcard />
             <Carrito />
             <br />
-          <div> valor de PI:  {PI}</div>
-          {doSometing()}
-          <App2 />
+            <App2 />
+          <ColorCard />
+         
         </>
 
     )
 }
+
 const Productcard = () => {
     return (
         <>
@@ -33,6 +34,7 @@ const Productcard = () => {
         </>
     )
 }
+export default App
 /* 
 Crear un componente llamado Carrito
 
@@ -62,8 +64,8 @@ const Carrito = () => {
           
         </>
 
-*/
 
+*/
 const Carrito = () => {
     return (
         <>
@@ -92,7 +94,7 @@ const Item = () => {
 
 
 
-export default App
 
-/*clase24*/
+
+
 
