@@ -1,6 +1,6 @@
 import React from "react"; // siempre que tengamos un archivo jsx hay que importar react
 import { App2 } from "../App2.jsx";
-
+import {mustang, camaro, torino, challenger, toyota} from "./assets/img";
 import { ColorCard } from "./ColorCard.jsx";
 import { TurismoCarretera } from "./TurismoCarretera.jsx";
 
@@ -30,7 +30,7 @@ const Car1 = {
   modelo: "mustang",
   color: "rojo",
   year: 2023,
-  image: "./assets/img/mustang.jpeg",
+  image: {mustang},
 };
 
 const Car2 = {
@@ -38,7 +38,7 @@ const Car2 = {
   modelo: "camaro",
   color: "negro",
   year: 2022,
-  image: "./assets/img/camaro.jpeg",
+  image: {camaro},
 };
 
 const Car3 = {
@@ -46,7 +46,7 @@ const Car3 = {
   modelo: "torino",
   color: "blanco",
   year: 2021,
-  image: "./assets/img/torino.jpeg",
+  image: {torino},
 };
 
 const Car4 = {
@@ -54,7 +54,7 @@ const Car4 = {
   modelo: "challenger",
   color: "azul",
   year: 2020,
-  image: "./assets/img/challenger.jpeg",
+  image: {challenger},
 };
 
 const Car5 = {
@@ -62,7 +62,7 @@ const Car5 = {
   modelo: "camry",
   color: "verde",
   year: 2022,
-  image: "./assets/img/camry.jpeg",
+  image: {toyota},
 };
 function App() {
   return (
@@ -78,6 +78,7 @@ function App() {
         <ColorCard Card={Card4} />
       </div>
       <div>
+        <img src={camaro} />
         <TurismoCarretera Car={Car1} />
         <TurismoCarretera Car={Car2} />
         <TurismoCarretera Car={Car3} />
