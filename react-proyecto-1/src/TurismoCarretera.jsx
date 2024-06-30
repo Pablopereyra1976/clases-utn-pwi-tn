@@ -1,18 +1,21 @@
 import React from "react";
-import './TurismoCarretera.css';
+import "./TurismoCarretera.css";
 
-
-const TurismoCarretera = ({Car}) => {
+const TurismoCarretera = ({ Car }) => {
   const { marca, modelo, color, year, image } = Car;
   return (
+    <>
+    <h1 className="title">Turismo Carretera</h1>
     <div className="car">
-      <h1>Turismo Carretera</h1>
-      <img src={image}  />
-      <h2>{marca}</h2>
-      <h2>{modelo}</h2>
-      <h2>{color}</h2>
-      <h2>{year}</h2>
+      <img src={image} className="image" />
+      <div className="info">
+        <h2 className="marca">{marca}</h2>
+        <h2 className="modelo">{modelo}</h2>
+        <h2 className="color">{color}</h2>
+        <h2 className="year">{year}</h2>
+      </div>
     </div>
+    </>
   );
-}
-export { TurismoCarretera }
+};
+export { TurismoCarretera };

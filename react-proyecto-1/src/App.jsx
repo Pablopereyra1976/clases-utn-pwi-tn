@@ -26,43 +26,43 @@ const Card4 = {
 };
 
 const Car1 = {
-  marca: "ford",
-  modelo: "mustang",
-  color: "rojo",
-  year: 2023,
-  image: {mustang},
+  marca: "MARCA: Ford",
+  modelo: "MODELO:  Mustang",
+  color: "COLOR: rojo",
+  year: "AÑO: " + 2024,
+  image: mustang,
 };
 
 const Car2 = {
-  marca: "chevrolet",
-  modelo: "camaro",
-  color: "negro",
-  year: 2022,
-  image: {camaro},
+  marca: "MARCA: Chevrolet",
+  modelo: "MODELO:  Camaro",
+  color: "COLOR: negro",
+  year: "AÑO: " + 2024,
+  image: camaro,
 };
 
 const Car3 = {
-  marca: "renault",
-  modelo: "torino",
-  color: "blanco",
-  year: 2021,
-  image: {torino},
+  marca: "MARCA: Renault",
+  modelo: "MODELO:  Torino",
+  color: "COLOR: blanco",
+  year: "AÑO: " + 2024,
+  image: torino,
 };
 
 const Car4 = {
-  marca: "dodge",
-  modelo: "challenger",
-  color: "azul",
-  year: 2020,
-  image: {challenger},
+  marca: "MARCA:  Dodge",
+  modelo: "MODELO:  Challenger",
+  color: "COLOR: azul",
+  year: "AÑO: " + 2024,
+  image: challenger,
 };
 
 const Car5 = {
-  marca: "toyota",
-  modelo: "camry",
-  color: "verde",
-  year: 2022,
-  image: {toyota},
+  marca: "MARCA:   Toyota",
+  modelo: "MODELO:  Camry",
+  color: "COLOR:verde",
+  year: "AÑO: " + 2024,
+  image: toyota,
 };
 function App() {
   return (
@@ -77,8 +77,8 @@ function App() {
         <ColorCard Card={Card3} />
         <ColorCard Card={Card4} />
       </div>
+      <br />
       <div>
-        <img src={camaro} />
         <TurismoCarretera Car={Car1} />
         <TurismoCarretera Car={Car2} />
         <TurismoCarretera Car={Car3} />

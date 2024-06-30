@@ -1,9 +1,76 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;     
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.car{
-    display: flex;
-   
+body {
+    margin: 8px 8px 8px 8px;
+}
+
+.car {
+  display: flex;
+  width: 100vw;
+  height: 350px;
+  gap: 5px;
+}
+.title {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: blue;
+  border-radius: 20px;
+  border: 2px solid blue;
+  background-color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.image {
+  width: 50%;
+  height: 300px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: solid 3px blue;
+  border-radius: 15px;
+}
+.info {
+  width: 50%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border: solid 3px blue;
+  border-radius: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 15px;
+}
+.marca {
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(204, 80, 26);
+  
+}
+.modelo {
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(25, 133, 48);
+ 
+}
+.color {
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(125, 15, 76);
+  
+}
+.year {
+
+ font-weight: bold;
+  font-size: 25px;
+  color: rgb(102, 118, 16);
 }
