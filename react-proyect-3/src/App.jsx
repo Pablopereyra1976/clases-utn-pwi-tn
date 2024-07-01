@@ -1,15 +1,15 @@
 import React from 'react'
-import HeaderChat from './HeaderChat'
-
 import './App.css'
+import ChatScreem from './Screems'
 
 function App() {
   return (
-    <>
-   <HeaderChat />
+    <div>
+      
+   <ChatScreem/>
    
-    </>
+    </div>
   )
 }
 
-export {App}
+export default App
