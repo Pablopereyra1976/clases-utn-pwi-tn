@@ -1,9 +1,9 @@
 import React from "react"
-import { ProfileCard } from "./ProfileCard"
+import { ProfileCard } from "./componentesPractica/ProfileCard"
 let nombre = 'pepe'
 const obtenerNombre = () => 'pepe'
     
-const App2 = () => {
+const Personas = () => {
 const persona1 = {
     nombre: 'pepe',
     apellido: 'perez',
@@ -16,6 +16,7 @@ const persona2 = {
     edad: 48,
     ubicacion: 'calle 123'
 }
+
 
 
 }
@@ -34,4 +35,4 @@ const persona2 = {
         </div>
     )
 
-export {App2}
+export {Personas}

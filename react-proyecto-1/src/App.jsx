@@ -1,10 +1,8 @@
 import React from "react"; // siempre que tengamos un archivo jsx hay que importar react
 
-import { mustang, camaro, torino, challenger, toyota } from "./assets/img";
-import { ColorCard } from "./ColorCard.jsx";
-import { TurismoCarretera } from "./TurismoCarretera.jsx";
-
-
+import { mustang, camaro, torino, challenger, toyota } from "./assets/img/index.js";
+import {ColorCard} from "./componentes/colorcard/ColorCard.jsx";
+import { TurismoCarretera } from "./componentes/turismocarretera/TurismoCarretera.jsx";
 
 const Card1 = {
   likes: 3,
@@ -66,14 +64,18 @@ const Car5 = {
   year: "AÑO: " + 2024,
   image: toyota,
 };
+
+
+
+
 function App() {
   return (
     <>
-      <h1>hola desde react</h1>
-      <Productcard />
-      <Carrito />
-      <Clase25 />
-      <br />
+      <h1 className="title">hola desde react</h1>
+   
+   
+ 
+  
       <div className="cartas">
         <ColorCard Card={Card1} />
         <ColorCard Card={Card2} />
@@ -94,98 +96,17 @@ function App() {
   );
 };
 
-const Productcard = () => {
-  return (
-    <>
-      <div>
-        <h3>Titulo producto</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
-          soluta, ea sed doloremque porro vero possimus magnam sit voluptates
-          fuga necessitatibus architecto tempore quos perferendis voluptas.
-          Ipsam nihil provident maiores.
-        </p>
-        <span>precio: $value</span>
-        <button>Comprar</button>
-      </div>
-      <div>
-        <button>like</button>
-        <button>dislike</button>
-      </div>
-    </>
-  );
-};
-
-/* 
-Crear un componente llamado Carrito
-
-El componente carrito tendra un h1 que dira 'Carrito de compras'
-
-Luego crear otro componente llamado Item
-El componente Item tendra la sig estructura
-<div>
-    <h2>nombre producto</h2>
-    <span>Cantidad: x</span>
-    <button>Eliminar</button>
-</div>
-
-Mostrar el Carrito en el componente App
-
-sintaxis
-function Carrito() {
-    return (
-        <>
-          
-        </>
-    )
-}
-const Carrito = () => {
-    return (
-        <>
-          
-        </>
-
-
-*/
-const Carrito = () => {
-  return (
-    <>
-      <h1>Carrito de compras</h1>
-      <div>
-        <Item />
-        <Item />
-        <Item />
-      </div>
-    </>
-  );
-};
-
-const Item = () => {
-  return (
-    <div>
-      <h2>Nombre del producto</h2>
-      <span>Cantidad: x</span>
-      <br />
-      <button>Eliminar</button>
-    </div>
-  );
-};
-const persona1 = {
-  nombre: 'pepe',
-  apellido: 'perez',
-  edad: 48,
-  ubicacion: 'calle 123'
-}
-const persona2 = {
-  nombre: 'juan',
-  apellido: 'lopez',
-  edad: 48,
-  ubicacion: 'calle 123'
-}
+export default App;
 
 
 
-let contador = 1
+
+
+
+
+
+
+/*let contador = 1
 contador = contador + 1
 const Clase25 = () => {
   return (
@@ -208,5 +129,5 @@ const incrementar = () => {
 }
   alert('me estoy incrementando')
 
+*/
 
-export default App;

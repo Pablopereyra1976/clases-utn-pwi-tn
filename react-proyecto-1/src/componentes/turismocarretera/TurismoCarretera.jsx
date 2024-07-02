@@ -1,6 +1,8 @@
 import React from "react";
 import "./TurismoCarretera.css";
 
+
+
 const TurismoCarretera = ({ Car }) => {
   const { marca, modelo, color, year, image } = Car;
   return (
