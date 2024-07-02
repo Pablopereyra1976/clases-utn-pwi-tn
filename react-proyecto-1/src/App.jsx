@@ -1,8 +1,10 @@
 import React from "react"; // siempre que tengamos un archivo jsx hay que importar react
-import { App2 } from "../App2.jsx";
-import {mustang, camaro, torino, challenger, toyota} from "./assets/img";
+
+import { mustang, camaro, torino, challenger, toyota } from "./assets/img";
 import { ColorCard } from "./ColorCard.jsx";
 import { TurismoCarretera } from "./TurismoCarretera.jsx";
+
+
 
 const Card1 = {
   likes: 3,
@@ -70,6 +72,7 @@ function App() {
       <h1>hola desde react</h1>
       <Productcard />
       <Carrito />
+      <Clase25 />
       <br />
       <div className="cartas">
         <ColorCard Card={Card1} />
@@ -85,7 +88,8 @@ function App() {
         <TurismoCarretera Car={Car4} />
         <TurismoCarretera Car={Car5} />
       </div>
-      
+
+
     </>
   );
 };
@@ -166,5 +170,43 @@ const Item = () => {
     </div>
   );
 };
+const persona1 = {
+  nombre: 'pepe',
+  apellido: 'perez',
+  edad: 48,
+  ubicacion: 'calle 123'
+}
+const persona2 = {
+  nombre: 'juan',
+  apellido: 'lopez',
+  edad: 48,
+  ubicacion: 'calle 123'
+}
+
+
+
+let contador = 1
+contador = contador + 1
+const Clase25 = () => {
+  return (
+    <div>
+      <h1>Hola {persona1.nombre}</h1>
+      <span>contador.{contador}</span>
+      <button onClick={incrementar}>incrementar</button>
+    </div >
+  );
+};
+
+
+
+
+
+
+const [valor, fncambiadora] = useState(1)
+const incrementar = () => {
+  fncambiadora(valor + 1)
+}
+  alert('me estoy incrementando')
+
 
 export default App;

@@ -17,6 +17,9 @@ const persona2 = {
     ubicacion: 'calle 123'
 }
 
+
+}
+
     return (
         <div>
             <h1>Hola {obtenerNombre()}</h1>
@@ -25,9 +28,10 @@ const persona2 = {
             persona={persona1}
             />
             <ProfileCard
-            persona={persona2}
-            />
+            persona={persona2}/>
+            <span>contador.{contador}</span>
+            <button onClick={incrementar}>incrementar</button>
         </div>
     )
-}
+
 export {App2}
