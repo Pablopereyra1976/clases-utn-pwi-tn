@@ -7,7 +7,7 @@ const TurismoCarretera = ({ Car }) => {
   const { marca, modelo, color, year, image } = Car;
   return (
     <>
-    <h1 className="title-car">Turismo Carretera</h1>
+    <h2 className="title-car">Turismo Carretera</h2>
     <div className="car">
       <img src={image} className="image" />
       <div className="info">

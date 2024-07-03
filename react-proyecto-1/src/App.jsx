@@ -71,7 +71,7 @@ const Car5 = {
 
 function App() {
   return (
-    <>
+    <main>
       <h1 className="title">hola desde react</h1>
    
    
@@ -94,7 +94,7 @@ function App() {
       
 
 
-    </>
+    </main>
   );
 };
 
