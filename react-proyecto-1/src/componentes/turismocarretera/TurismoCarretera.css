@@ -13,7 +13,7 @@ body {
   height: 350px;
   gap: 5px;
 }
-.title {
+.title-car {
   width: 100vw;
   height: 100px;
   display: flex;

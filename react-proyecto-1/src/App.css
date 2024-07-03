@@ -5,23 +5,18 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #95471baa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #e66224aa);
-}
+
 
 .card {
   padding: 2em;
 }
 
 .title {
-  color: #935019;
+  color: #e62a39;
+  text-transform: uppercase;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  box-shadow: #e62a39;
+  text-shadow: 0 20px 20px #e62a39;
+  
 }

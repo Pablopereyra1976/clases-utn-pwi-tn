@@ -1,8 +1,9 @@
 import React from "react"; // siempre que tengamos un archivo jsx hay que importar react
-
+import './App.css';
 import { mustang, camaro, torino, challenger, toyota } from "./assets/img/index.js";
 import {ColorCard} from "./componentes/colorcard/ColorCard.jsx";
 import { TurismoCarretera } from "./componentes/turismocarretera/TurismoCarretera.jsx";
+
 
 const Card1 = {
   likes: 3,
@@ -90,6 +91,7 @@ function App() {
         <TurismoCarretera Car={Car4} />
         <TurismoCarretera Car={Car5} />
       </div>
+      
 
 
     </>
