@@ -1,3 +1,3 @@
 import { ChatScreem } from "./ChatScreem";
 
-export { ChatScreem }
+export default ChatScreem 

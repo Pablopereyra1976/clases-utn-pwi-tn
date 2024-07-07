@@ -1,12 +1,12 @@
-import React from 'react'
-import { Mensaje } from '../Mensaje/Mensaje'
-import "./ListaMensajes.css"
+import React from 'react';
+import Mensajes from '../Mensaje/Mensaje';
+import './listaMensajes.css';
 
 export default function ListamensajesChat() {
   return (
-    <div className="mensaje-container">
-        <Mensaje />
+    <div className='mensaje-fondo'>
+        <Mensajes />
     </div>
   )
 }
-export {ListamensajesChat}
+

@@ -1,5 +1,5 @@
-import React from 'react'
-import './NuevoMensajeForm.css'
+import React from 'react';
+import "./NuevoMensajeForm.css";
 export default function NuevoMensajeForm() {
   return (
     <div className='input-container'>

@@ -1,0 +1,25 @@
+[
+    {
+    "titulo": "TV Samsung",
+    "precio": 1000,
+    "id":1,
+    "categoria": "televisores",
+    "descripcion": "tv 55 pulgadas"
+    },
+    {
+    "titulo": "TV LG",
+    "precio": 1000,
+    "id":2,
+    "categoria": "televisores",
+    "descripcion": "tv 40 pulgadas"
+    },
+    {
+    "titulo": "TV Sony",
+    "precio": 1000,
+    "id":3,
+    "categoria": "televisores",
+    "descripcion": "tv 32 pulgadas"
+    }
+  ]
+
+
