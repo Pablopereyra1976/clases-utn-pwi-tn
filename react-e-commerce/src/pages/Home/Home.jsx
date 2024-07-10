@@ -1,10 +1,7 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
-<<<<<<< Updated upstream
+import Navbar from '../../components/Navbar/Navbar' 
 import { Link } from 'react-router-dom';
 import listaProductos from '../../productos.json'
- function Home() {
-=======
 import {Link} from 'react-router-dom'
 
  function Home() {
@@ -31,7 +28,6 @@ const listaProductos = [
   descripcion: "tv 55 pulgadas, origen chino con garantia de 4 años"
   }
 ]
->>>>>>> Stashed changes
 
 const productos = listaProductos
   return (
