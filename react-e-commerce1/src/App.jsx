@@ -1,18 +1,22 @@
 import React from "react";
 import Stock from "./Componentes/Stock/Stock.jsx";
 import { Routes, Route } from "react-router-dom";
-import { TornillosMilimetricos } from "./Componentes/Inventario";
+import { Home, TornillosMilimetricos, TuercasMilimetricas } from "./Componentes/Inventario/index.js";
+
+
+
 function App() {
 
 
   return (
     <Routes>
      
-      <Route path='/Stock/:tornillosid' element={<Stock />} />
-      <Route path='/' element={<TornillosMilimetricos/>}/>
-      <Route path='/productos' element={<TornillosMilimetricos/>}/>
+      <Route path='/Stock/:tornillosId' element={<Stock />} />
+      <Route path='/' element={<Home/>}/>
+      <Route path='/Tornillos/:tornillosId' element={<TornillosMilimetricos/>}/>
+      <Route path='/Tuercas/:tuercasId' element={<TuercasMilimetricas />} />
     </Routes>
   );
 }
 
-export default App
+export default App;

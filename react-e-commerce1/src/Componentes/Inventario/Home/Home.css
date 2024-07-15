@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container-titulo {
+    background-color: cadetblue;
+    width: 100vw;
+    height: 70px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+  justify-content: center;
+    margin-bottom: 40px;
+  
+  }
+  
+  .titulo {
+    font-size: 50px;
+    align-items: center;
+  }
+  img.img{
+background-color: chartreuse;
+width: 60vw;
+height: 500px;
+margin-left: 270px;
+
+  }
