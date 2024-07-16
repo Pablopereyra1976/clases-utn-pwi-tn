@@ -1,7 +1,7 @@
 import React from "react";
 import Tuercas from "../tuercas.json";
 import { Link } from "react-router-dom";
-import "./TuercasMilimetricas.css";
+
 
 function TuercasMilimetricas() {
   return (
@@ -23,7 +23,7 @@ function TuercasMilimetricas() {
         ))}
       </div>
       <div>
-        <Link to={"/"} className="btn">
+        <Link to={"/"} className="volver">
           Volver
         </Link>
       </div>

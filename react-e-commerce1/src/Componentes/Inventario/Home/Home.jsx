@@ -9,14 +9,14 @@ const Tornillo = { id: 1 };  // Define el objeto Tornillo
 function Home() {
   return (
     <div>
-       <div className="container-titulo">
+      <div className="container-titulo">
         <h1 className="titulo">Tornilleria "veracruz"</h1>
-    </div>
-    <div>
-      <Link to={`/Tuercas/${Tuerca.id}`} className="btn">Ir a Tuercas</Link>
-      <Link to={`/Tornillos/${Tornillo.id}`} className="btn">Ir a Tornillos</Link>
-    </div>
-    <img src={ferreteria} className="img" />
+      </div>
+
+      <Link to={`/Tuercas/${Tuerca.id}`} className="btn-home">Ir a Tuercas</Link>
+      <Link to={`/Tornillos/${Tornillo.id}`} className="btn-home">Ir a Tornillos</Link>
+
+      <img src={ferreteria} className="img-home" />
     </div>
   );
 }

@@ -21,8 +21,8 @@ function TornillosMilimetricos() {
           </div>
         ))}
       </div>
-      <div>
-        <Link to={"/"} className="btn">
+      <div >
+        <Link to={"/"} className="volver">
           Volver
         </Link>
       </div>
