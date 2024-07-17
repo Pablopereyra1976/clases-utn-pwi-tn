@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pedro",
+    "ultima_conexion": "ayer",
+    "numero": "222-222-2222",
+    "mensajes": [
+      {
+        "autor": "yo",
+        "texto": "Hola, ¿cómo estas?",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "1"
+      },
+      {
+        "autor": "Pedro",
+        "texto": "Hola, todo bien ¿vos?",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:26",
+        "id": "2"
+      },
+      {
+        "autor": "yo",
+        "texto": "aca estamos, rompiendome la cabeza con react",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "3"
+      },
+      {
+        "autor": "Pedro",
+        "texto": "metele ganas, estas en buen camino",
+        "estado": "entregado",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "4"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Felipe",
+    "ultima_conexion": "ayer",
+    "numero": "333-333-3333",
+    "mensajes": [
+      {
+        "autor": "yo",
+        "texto": "Hola, ¿cómo estas?",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "1"
+      },
+      {
+        "autor": "Felipe",
+        "texto": "Hola, todo bien ¿vos?",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:26",
+        "id": "2"
+      },
+      {
+        "autor": "yo",
+        "texto": "aca estamos, rompiendome la cabeza con react",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "3"
+      },
+      {
+        "autor": "Felipe",
+        "texto": "metele ganas, estas enuen camino",
+        "estado": "entregado",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "4"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Maria",
+    "ultima_conexion": "ayer",
+    "numero": "444-444-4444",
+    "mensajes": [
+      {
+        "autor": "yo",
+        "texto": "Hola, ¿cómo estas?",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "1"
+      },
+      {
+        "autor": "Maria",
+        "texto": "Hola, todo bien ¿vos?",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:26",
+        "id": "2"
+      },
+      {
+        "autor": "yo",
+        "texto": "aca estamos, rompiendome la cabeza con react",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "3"
+      },
+      {
+        "autor": "Maria",
+        "texto": "metele ganas, estas enuen camino",
+        "estado": "entregado",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "4"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Pablo",
+    "ultima_conexion": "ayer",
+    "numero": "555-555-5555",
+    "mensajes": [
+      {
+        "autor": "yo",
+        "texto": "Hola, ¿cómo estas?",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "1"
+      },
+      {
+        "autor": "Pablo",
+        "texto": "Hola, todo bien ¿vos?",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:26",
+        "id": "2"
+      },
+      {
+        "autor": "yo",
+        "texto": "aca estamos, rompiendome la cabeza con react",
+        "estado": "visto",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "3"
+      },
+      {
+        "autor": "Pablo",
+        "texto": "metele ganas, estas enuen camino",
+        "estado": "entregado",
+        "dia": "hoy",
+        "hora": "13:16",
+        "id": "4"
+      }
+    ]
+  }
+]

@@ -15,6 +15,7 @@ function App() {
       <Route path='/' element={<Home/>}/>
       <Route path='/Tornillos/:tornillosId' element={<TornillosMilimetricos/>}/>
       <Route path='/Tuercas/:tuercasId' element={<TuercasMilimetricas />} />
+      <Route path="/Productos" element={<Home />} />
     </Routes>
   );
 }
