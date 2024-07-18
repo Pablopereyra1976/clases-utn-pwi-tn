@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background-image: image-set(url('../imagenes/fondo.jpg'));
+    background-image: image-set(url('../../src/Imagenes/fondo.jpg'));
     background-size: cover; 
     width: 400px;
     height: 800px;
@@ -12,4 +12,13 @@
     border-radius: 36px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     overflow: hidden;
+  }
+  .container-icon{
+display: flex;
+justify-content: space-between;
+
+  }
+  .icon{
+display: flex;
+margin-left: 1100px;
   }

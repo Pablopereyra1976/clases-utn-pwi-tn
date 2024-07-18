@@ -1,6 +1,6 @@
 import React from "react";
 import MOOK_MENSAJES from "../../../Components/Mensajes.json";
-import { visto, entregado, noEntregado } from "../../../imagenes";
+import { visto, entregado, noEntregado } from "../../../../src/Imagenes";
 import "./mensaje.css";
 
 function Mensajes() {
