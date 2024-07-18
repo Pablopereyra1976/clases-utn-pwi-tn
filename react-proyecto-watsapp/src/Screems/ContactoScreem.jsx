@@ -1,15 +1,14 @@
 import React from 'react';
-import { ChatHeader, ListamensajesChat,NuevoMensajeForm } from '../Components';
-import './ChatScreem.css';
+
+import './ContactoScreem.css';
+import ContactoHeader from '../Components/Contactos/Contactoheader/ContactoHeader';
 
 
  function ContactoScreem() {
   return (
-    <div className='chat-screen'>
-        <ChatHeader/>
-        <ListamensajesChat />
-        <NuevoMensajeForm />
+    <div className='contacto-screen'>
+       <ContactoHeader/> 
     </div>
   )
 }
-export {ChatScreem}
+export {ContactoScreem}
