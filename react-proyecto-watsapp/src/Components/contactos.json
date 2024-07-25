@@ -1,9 +1,16 @@
+
+
+
+
+
 [
   {
     "id": 1,
     "nombre": "Pedro",
+    "apellido": "Perez",
     "ultima_conexion": "ayer",
     "numero": "222-222-2222",
+    "image": "carita1",
     "mensajes": [
       {
         "autor": "yo",
@@ -42,12 +49,14 @@
   {
     "id": 2,
     "nombre": "Felipe",
-    "ultima_conexion": "ayer",
+    "apellido": "Pereyra",
+    "ultima_conexion": "Miercoles", 
     "numero": "333-333-3333",
+    "image": "carita2",
     "mensajes": [
       {
         "autor": "yo",
-        "texto": "Hola, ¿cómo estas?",
+        "texto": "Hola Feli....",
         "estado": "visto",
         "dia": "hoy",
         "hora": "13:16",
@@ -55,7 +64,7 @@
       },
       {
         "autor": "Felipe",
-        "texto": "Hola, todo bien ¿vos?",
+        "texto": "Hola Papa...",
         "estado": "visto",
         "dia": "hoy",
         "hora": "13:26",
@@ -63,7 +72,7 @@
       },
       {
         "autor": "yo",
-        "texto": "aca estamos, rompiendome la cabeza con react",
+        "texto": "Hiciste tarea hoy? ",
         "estado": "visto",
         "dia": "hoy",
         "hora": "13:16",
@@ -71,7 +80,7 @@
       },
       {
         "autor": "Felipe",
-        "texto": "metele ganas, estas enuen camino",
+        "texto": "uhhhhhh, me olvide papa...",
         "estado": "entregado",
         "dia": "hoy",
         "hora": "13:16",
@@ -82,12 +91,14 @@
   {
     "id": 3,
     "nombre": "Maria",
-    "ultima_conexion": "ayer",
+    "apellido": "Lopez",
+    "ultima_conexion": "hoy",
     "numero": "444-444-4444",
+    "image": "carita3",
     "mensajes": [
       {
         "autor": "yo",
-        "texto": "Hola, ¿cómo estas?",
+        "texto": "Buenas tardes, me podes dar de baja el servicio?",
         "estado": "visto",
         "dia": "hoy",
         "hora": "13:16",
@@ -95,7 +106,7 @@
       },
       {
         "autor": "Maria",
-        "texto": "Hola, todo bien ¿vos?",
+        "texto": "Buenas tardes, por que motivo?",
         "estado": "visto",
         "dia": "hoy",
         "hora": "13:26",
@@ -103,7 +114,7 @@
       },
       {
         "autor": "yo",
-        "texto": "aca estamos, rompiendome la cabeza con react",
+        "texto": "No lo puedo pagar mas!!!! es carisimo....",
         "estado": "visto",
         "dia": "hoy",
         "hora": "13:16",
@@ -111,7 +122,7 @@
       },
       {
         "autor": "Maria",
-        "texto": "metele ganas, estas enuen camino",
+        "texto": "tengo una promocion para ofrecerle",
         "estado": "entregado",
         "dia": "hoy",
         "hora": "13:16",
@@ -122,12 +133,14 @@
   {
     "id": 4,
     "nombre": "Pablo",
+    "apellido": "Gonzalez",
     "ultima_conexion": "ayer",
     "numero": "555-555-5555",
+    "image": "carita4",
     "mensajes": [
       {
         "autor": "yo",
-        "texto": "Hola, ¿cómo estas?",
+        "texto": "Buenas noches, quiero hacerte un pedido de pizza",
         "estado": "visto",
         "dia": "hoy",
         "hora": "13:16",
@@ -135,7 +148,7 @@
       },
       {
         "autor": "Pablo",
-        "texto": "Hola, todo bien ¿vos?",
+        "texto": "Que haces capoooo, daleeeee",
         "estado": "visto",
         "dia": "hoy",
         "hora": "13:26",
@@ -143,7 +156,7 @@
       },
       {
         "autor": "yo",
-        "texto": "aca estamos, rompiendome la cabeza con react",
+        "texto": "Una fugazzeta rellena, cuanto sale? ",
         "estado": "visto",
         "dia": "hoy",
         "hora": "13:16",
@@ -151,7 +164,7 @@
       },
       {
         "autor": "Pablo",
-        "texto": "metele ganas, estas enuen camino",
+        "texto": "Perfecto, son 5000 pesos, en media hora esta por ahi....",
         "estado": "entregado",
         "dia": "hoy",
         "hora": "13:16",

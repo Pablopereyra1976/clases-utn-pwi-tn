@@ -1,21 +1,30 @@
 import React from "react";
-import "./ChatHeader.css";
-import { fotoperfil } from "../../../../src/Imagenes";
-import { FaEllipsisVertical } from "react-icons/fa6";
-
+import { CiCamera   } from "react-icons/ci";
+import { BsThreeDotsVertical } from "react-icons/bs";
+import { IoMdSearch } from "react-icons/io";
+import "./ContactoHeader.css";
 
 function ContactoHeader() {
-    return (
-        <div className="chat-header">
-            <img src={fotoperfil} alt="foto" />
-            <div className="contact-info">
-                <div className="contact-name">Pedro</div>
-                <div className="contact-status">Online</div>
-            </div>
-            <div className="container-icon">
-                <h1 className="icon"><FaEllipsisVertical /></h1>
-            </div>
+  return (
+    /*<div>
+      <div className="contacto-header">
+        <h2 className="title">WhatsaApp</h2>
+        <div className="camara">
+          <FiCamera />
         </div>
-    );
+        <div className="contacto-icon">
+          <FaEllipsisV />
+        </div>
+      </div>
+      <button className="contacto-btn" onClick={() => window.location.reload()}>
+        <FaMagnifyingGlass className="icon-glass" />
+        Buscar...
+      </button>
+    </div>*/
+
+<div className="contact-header">
+<div className='logo'> WhatsApp</div> <div className="iconos"><CiCamera /><IoMdSearch /><BsThreeDotsVertical /></div>
+</div>
+  );
 }
 export default ContactoHeader;

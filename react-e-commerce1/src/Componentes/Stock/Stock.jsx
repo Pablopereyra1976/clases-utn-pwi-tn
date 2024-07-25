@@ -15,7 +15,7 @@ console.log("tornillo encontrado",tornillo)
   return (
     <div className='container-stock'>
    <div className='descripcion'> este tipo de tornillo viene de diversos colores, en este caso solo queda en stock este color:  {tornillo.color}</div>
-   <Link to={'/productos'}className='btn-stock'>volver</Link>
+   <Link to={'/tuercas'}className='btn-stock'>volver</Link>
 
    </div>
   )

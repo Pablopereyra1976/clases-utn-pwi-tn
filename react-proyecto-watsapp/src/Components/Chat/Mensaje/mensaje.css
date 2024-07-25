@@ -1,40 +1,51 @@
 .mensaje-container {
   display: flex;
+  width: 100vw;
   flex-direction: column;
   overflow: scroll;
+  background-image: url(../../../Imagenes/fondo.jpg);
 }
 
 .mensaje {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
   width: 60%;
-  background-color: #d1a5a5;
-  color: #2f0c70;
+  height: 70px;
+  background-color: #4f5358;
+  border: solid 2px #1c1d1b;
   border-radius: 10px;
   margin: 10px 10px;
-  text-align: start;
+
 }
 
 .mensaje.yo {
-  background-color: #abd886;
-  color: #112e2a;
+  background-color: #80aa55;
+  border: solid 2px #393b36;
   text-align: right;
 margin-left: auto;
   width: 60%;
+  color: white;
 }
 
 .mensaje-texto {
+ color: white;
   margin: 15px;
   font-size: 16px;
 }
 
 .mensaje-info {
+
+  display: flex;
+  
+ padding-left: 20px;
   font-size: 12px;
-  color: #140c41;
-  margin-top: 5px;
-  text-align: right;
+ 
+}
+img.estado{
+ font-weight: 500;
+width: 20px;
+margin-left: 10px;
+
 }
 
-.estado {
-  width: 15px;
-  padding-left: 15px;
-}
+

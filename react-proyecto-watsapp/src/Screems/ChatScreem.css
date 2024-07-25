@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background-image: image-set(url('../../src/Imagenes/fondo.jpg'));
     background-size: cover; 
     width: 400px;
     height: 800px;

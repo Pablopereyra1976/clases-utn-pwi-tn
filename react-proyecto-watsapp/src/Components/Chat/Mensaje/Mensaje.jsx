@@ -1,10 +1,11 @@
 import React from "react";
 import MOOK_MENSAJES from "../../../Components/Mensajes.json";
-import { visto, entregado, noEntregado } from "../../../../src/Imagenes";
+import  Imagenes   from "../../../Imagenes";
 import "./mensaje.css";
 
 function Mensajes() {
   const mensaje = MOOK_MENSAJES;
+  const {visto, entregado, noEntregado} = Imagenes
   return (
     <div className="mensaje-container">
       {MOOK_MENSAJES.map((mensaje) => (
