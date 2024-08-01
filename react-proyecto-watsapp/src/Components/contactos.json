@@ -11,6 +11,8 @@
     "ultima_conexion": "ayer",
     "numero": "222-222-2222",
     "image": "carita1",
+    "email": "pedroperez@gmail.com",
+    "direccion": "Calle falsa 123",
     "mensajes": [
       {
         "autor": "yo",
@@ -53,6 +55,8 @@
     "ultima_conexion": "Miercoles", 
     "numero": "333-333-3333",
     "image": "carita2",
+    "email": "felipepereyra@gmail.com",
+    "direccion": "Calle verdadera 123",
     "mensajes": [
       {
         "autor": "yo",
@@ -95,6 +99,8 @@
     "ultima_conexion": "hoy",
     "numero": "444-444-4444",
     "image": "carita3",
+    "email": "marialopez@gmail.com",
+    "direccion": "Calle seraonosera 123",
     "mensajes": [
       {
         "autor": "yo",
@@ -137,6 +143,8 @@
     "ultima_conexion": "ayer",
     "numero": "555-555-5555",
     "image": "carita4",
+    "email": "pablogonzalez@gmail.com",
+    "direccion": "Calle siempreviva 123",
     "mensajes": [
       {
         "autor": "yo",

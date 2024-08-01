@@ -12,14 +12,24 @@
     border-radius: 20px;
     margin-right: 10px;
   }
+  .enviar{
+    
+  }
   
   .input-container button {
-    background-color: #25d366; 
+    flex: 1;
+    background-color: #116d33; 
     border: none;
     color: white;
+  
     font-size: 15px;
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
   }
   
+  @media(max-width: 380px){
+    .input-container button{
+      display: block;
+    }
+  }

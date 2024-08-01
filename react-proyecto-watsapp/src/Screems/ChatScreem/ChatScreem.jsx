@@ -1,5 +1,7 @@
 import React from 'react';
-import { ChatHeader, ListamensajesChat,NuevoMensajeForm } from '../Components';
+import ChatHeader from '../../Components/Chat/ChatHeaderInfo/ChatHeader';
+import ListamensajesChat from '../../Components/Chat/ListaMensajes/ListaMensajes';
+import NuevoMensajeForm from '../../Components/Chat/MensajeForm/NuevoMensajeForm';
 import './ChatScreem.css';
 
 

@@ -4,22 +4,29 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+body{
+  margin: 15px;
+  overflow: hidden;
+}
+
 .link{
   text-decoration: none;
 }
 
 .container {
   width: 100vw;
-  height: 530px;
-
+  height: 490px;
+padding-left: 10px;
+padding-right: 20px;
   gap: 25px;
 }
 .contacto-container {
   display: flex;
+
   justify-content: space-between;
 background-color: #252323;
   height: 90px;
-  margin-top: 25px;
+margin-top: 15px;
   border: solid 3px rgba(77, 6, 6, 0.733);
   border-radius: 35px;
   
@@ -32,7 +39,7 @@ background-color: #252323;
   background-color: rgb(139, 19, 89);
   width: 60px;
   height: 60px;
- margin-top: 8px;
+ margin-top: 12px;
  margin-left: 8px;
   border-radius: 50%;
 }
@@ -43,9 +50,9 @@ background-color: #252323;
   color: white;
   
 }
-.mensaje-texto{
+.mensaje-texto-cont{
   display: flex;
-  
+  padding-left: 60px;
   color: white;
 
 }
@@ -69,9 +76,20 @@ background-color: #252323;
 
 }
 
+@media screen and (min-width: 320px) {
+
+
+}
+
+
 @media screen and (max-width: 580px) {
-.mensaje-texto{
+.mensaje-texto-contacto{
   display: none;
+}
+.mensaje-texto-cont{
+  display: none;
+}
+
 
 }
 .mensaje-nombre{
@@ -82,5 +100,4 @@ background-color: #252323;
 .mensaje-info{
   display: none;
 
-}
 }
